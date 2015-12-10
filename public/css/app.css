@@ -1,0 +1,67 @@
+.logoHome {
+	margin-top: -25px;
+}
+
+.navbar-custom {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.row-height {
+	width: 118%;
+	height: 100%;
+	float: left;
+	right: 0px;
+	left: 0px;
+	overflow:auto;
+	padding: 7px;
+	clear: both;
+}
+
+.sub-row {
+	width:20%;
+	padding:7px;
+	margin: 7px;
+	height: 45%;
+	float:left;
+	border-radius: 7px;
+}
+
+.product:hover {
+	-moz-box-shadow: 0 0 12px #202020;
+	-webkit-box-shadow: 0 0 12px #202020;
+	box-shadow: 0 0 12px #202020;
+}
+
+.wrapper {
+	margin-left: 250px;
+}
+
+#price {
+	text-align: center;
+	color: #ff0000; 
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 5px;
+}
+
+.pagination {
+	float: left;
+	clear: both;
+}
+
+.category {
+	width: 10%;
+	height: 200px;
+	position: relative;
+	float: left;
+	border: solid 1px #000;
+	display: inline-block;
+}
+
+.cross {
+	text-decoration: line-through;
+}
+
+.cart-price {
+	width: 100px;
+}

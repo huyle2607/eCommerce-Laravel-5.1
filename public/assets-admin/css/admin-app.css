@@ -1,0 +1,48 @@
+.red {
+	color: #cc362e;
+}
+
+.product-insert-form {
+	width: 700px;
+	margin-left: 50px;
+}
+
+.brand-insert-form {
+    width: 350px;
+    margin-left: 50px;
+}
+
+.brand-panel {
+    width: 600px;
+    margin-left: 12em;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
